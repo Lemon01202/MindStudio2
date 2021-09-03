@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import "vars";
+@import "vendor/reset.scss";
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: $primary;
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+    color: $secondary;
+}
+
+
+
+/*Header*/
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+
+/*Content*/
+@import "blocks/services.scss";
+@import "blocks/lead.scss";
+@import "blocks/desc.scss";
+
+/*Main*/
+@import "blocks/main.scss";
+
+/*Contacts*/
+@import "blocks/contact.scss";
+@import "blocks/info.scss";
+@import "blocks/form.scss";
+@import "blocks/btn.scss";
+
+/*Footer*/
+@import "blocks/footer.scss";
+@import "blocks/footer__top.scss";
+@import "blocks/footer__body.scss";
+@import "blocks/footer__bottom.scss";

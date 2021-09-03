@@ -1,0 +1,8 @@
+.contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: $primary;
+	background-color: $secondary;
+	overflow: hidden;
+	padding-bottom: 70px;
+}

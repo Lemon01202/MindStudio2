@@ -1,0 +1,58 @@
+.contact__btn{
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+	margin-left: 15px;
+}
+
+.form_radio_btn{
+	margin-top: 20px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+	color: $black;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	width: 164px;
+	height: 54px;
+	display: inline-block;
+	cursor: pointer;
+	padding: 12px 21px;
+	line-height: 34px;
+	border-radius: 6px;
+	user-select: none;
+	font-size: 14px;
+	border-radius: 60px;
+	padding-bottom: 21px;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: $black;
+	color: $secondary;
+	&::before{
+		content: '\2713';
+		display: block;
+		width: 20px;
+		height: 20px;
+		float: left;
+		padding: 0 3px 0 0;
+	}
+}
+
+.form_radio_btn label:hover {
+	transition: .3s linear;
+	background-color: #FAFAFA;
+}
+
+
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: $secondary;
+	color: $black;
+}

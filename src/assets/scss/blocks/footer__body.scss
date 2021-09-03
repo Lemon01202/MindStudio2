@@ -1,0 +1,21 @@
+.footer__body{
+	.list{
+		position: relative;
+		margin-top: 140px;
+		margin-right: 142px;
+		.list__item{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			color: $black;
+			font-size: 18px;
+			.list-span{
+				margin-left: 13px;
+			}
+			&:nth-child(1){
+				margin-bottom: 30px;
+				margin-right: 35px;
+			}
+		}
+	}
+}

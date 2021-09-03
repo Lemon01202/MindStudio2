@@ -1,0 +1,29 @@
+.header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: $header-height;
+	z-index: $z-index-header;
+	background-color: $primary;
+	color: $secondary;
+	transition: .2s linear;
+}
+
+.header__left{
+	width: 50%;
+}
+
+
+.header__right{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header__fixed{
+	background-color: $secondary;	
+}

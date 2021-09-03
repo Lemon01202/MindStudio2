@@ -1,0 +1,27 @@
+.content__services{
+	display: flex;
+	padding-top: 52px;
+}
+
+.services {
+	width: 50%;
+	text-transform: uppercase;
+}
+
+.services__link{
+	text-decoration: none;
+	color: $secondary;
+	padding-left: 60px;
+	letter-spacing: 2px;
+}
+
+.number{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.number__link{
+	color: $secondary;
+	padding-right: 63px;
+}

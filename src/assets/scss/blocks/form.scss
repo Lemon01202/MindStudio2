@@ -1,0 +1,50 @@
+.contact__right{
+	padding-top: 95px;
+}
+
+input {
+	outline:none;
+}
+
+.form-name{
+	margin-top: 65px;
+}
+
+.form-group{
+    color: #333333;
+    padding: 8px 13px;
+    display: block;
+    text-decoration: none;
+	width: 640px;
+    &:after {
+      content: '';
+      display: block;
+      height: 2px;
+	  margin-top: 7px;
+      background: $black;
+	  width: 640px;
+    }
+}
+
+.form-group input{
+	width: 640px;
+}
+
+.form-group input:focus{
+	height: 50px;
+}
+
+.form-check{
+	margin-top: 30px;
+	margin-left: 13px;
+}
+
+.contact__form .btn-primary{
+	width: 97px;
+	height: 50px;
+	background-color: #F24438;
+	color: $secondary;
+	border-radius: 60px;
+	margin-top: 47px;
+	margin-left: 15px;
+}

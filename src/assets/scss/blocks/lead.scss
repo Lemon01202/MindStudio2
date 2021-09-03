@@ -1,0 +1,22 @@
+.content__lead{
+    display: block;
+	max-width: 1100px;
+	padding-top: 165px;
+	padding-bottom: 0px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 82px;
+	font-family: Pompadur, 'Hind';
+	color: $secondary;
+}
+
+.content__lead-paragraph{
+	font-size: 64px;
+	font-weight: 600;
+}
+
+.content__lead-svg{
+	position: relative;
+	top: -255px;
+	left: -20px;
+}
